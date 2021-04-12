@@ -13,6 +13,15 @@ public class ArrayListExample {
 		for(int i = 0; i < names.size(); i++) {
 			System.out.println(names.get(i));
 		}
+
+		ArrayList<Integer> points = new ArrayList<Integer>();
+		System.out.println(points.add(399));
+		points.add(333);
+		points.add(899999);
+
+		for(int i : points) {
+			System.out.println(i);
+		}
 	}
 
 }
